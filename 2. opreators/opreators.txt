@@ -1,0 +1,33 @@
+						      <--- OPREATORS --->
+						     ---------------------
+						     ---------------------
+
+* Uniary op                             ------>         +  -    !   ~ [inversion of bits] 
+
+* Airthmatic op				------>		+   -   *   /   %
+
+* Bitwise op				------>		&   |   ^  [exclusive or]
+
+* Assgnment op				------>		=    +=    -=    /=    *=    %=
+
+* Camparison op				------>		==    !=    >    <    <=    >=    &=    ^=    |=    <<=    >>=    >>>=
+
+* Logical op				------>		&&    ||    !
+
+* Increment / Decrement op		------>		++i    i++    --i    i--
+
+* Ternary op				------>		condition ? ifTrue : ifFalse;
+
+* Shift op                              ------>         << [Right shift]    >>[Signed Left shift]    >>> [Unsighed Left shift]
+
+NOTE--> LS op increses the value of var by two times while RS decreases the value by half of its value(ground value taken
+	 in case of decimal).
+
+	public static void main(String args[]){  
+		int a=10;  
+		int b=-10;  
+		boolean c=true;  
+		boolean d=false;  
+		System.out.println(~a);		//-11 (minus of total positive value which starts from 0)  
+		System.out.println(~b);		//9 (positive of total minus, positive starts from 0)  
+	}
