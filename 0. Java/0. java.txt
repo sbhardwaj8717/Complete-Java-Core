@@ -1,0 +1,36 @@
+						4 types of java applications
+		            		     ------------------------------------
+					     ------------------------------------
+Type 0::   Standalone application or system software
+Type 1::   Web Application
+Type 2::   Enterprise Application    // banking or security related application. EBJ is used in such types of application
+Type 3::   Mobile Application
+
+
+						Java Platforms / Editions
+					     ------------------------------------
+					     ------------------------------------
+
+Edition 0:: Java SE (Java Standard Edition)
+Edition 1:: Java EE (Java Enterprise Edition)
+Edition 2:: Java ME (Java Micro Edition)
+Edition 3:: JavaFX
+
+						    Features of Java
+						----------------------	
+						----------------------	
+
+
+0.    Simple
+1.    Object-Oriented
+2.    Portable
+3.    Platform independent  //  Java provides a software-based platform.
+4.    Secured
+5.    Robust
+6.    Architecture neutral
+7.    Interpreted
+8.    High Performance
+9.    Multithreaded
+10.   Distributed
+11.   Dynamic
+
