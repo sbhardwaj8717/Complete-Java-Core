@@ -1,0 +1,27 @@
+						   <----Java Variables---->
+						------------------------------
+						------------------------------
+As variable is a container which holds the value of data of in any program.
+A variable is assigned with a data type.
+
+						Three types of Variable in java
+					    ----------------------------------------
+					    ----------------------------------------
+
+
+	0. local variable     ---> defiend within a method....one visible in that perticular method or to its childern methods
+	1. Instance Variable  ---> defiend within a class but out side the method
+	2. Static variable    ---> a variable which is declared as staric is called a static variable. Value difined 
+				   globally and can use in all instances... Memory allocation happens once only
+
+
+			class Variable{
+				int inst = 50;   			// instance variable
+				static int num = 10;   			// static variable
+
+				public static void main(String[] args){
+					int loc = 8717;                  // local variable 					
+				}
+			}
+
+

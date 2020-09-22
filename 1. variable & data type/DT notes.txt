@@ -1,0 +1,45 @@
+							<--- DATA TYPE --->
+						---------------------------------- 
+						----------------------------------
+
+	2 Types of Data Types-->
+     ---------------------------
+     ---------------------------
+ 0. Primative Data types
+ 1. Non-primitative Data Types
+
+
+	8 primitive data types-->
+    ------------------------------
+    ------------------------------
+0. Integer    -->byte(1b)  short(2b)   int(4b)   long(8b)                        ex:- int x=1234
+1. Float      -->float(4b)     double(8b) 				         ex:- float f=3.12f   ,  double d=3.12
+2. Character  -->char(2b)							 ex:- char c='s'
+3. Boolean    -->bool(1 bit)       (true and false value of any thing)		 ex:- bool b=True
+
+ NOTE--> In java char use 2byte data because it use unicode system not ASCII value system.
+	UNICODE  == Universal international Standard Character Encoding    [lowest val = \u0000   &   highest val = \uFFFF]
+	ASCII    == Amarican Standard Code for Information Interchange
+
+
+	Non-Primative data types-->
+     --------------------------------
+     --------------------------------
+
+ 0. String
+ 1. Array
+ 2. Interfaces
+ 3. Classes...ETC.
+
+NOTE --> Will discuss later   
+
+					       	      <--- TYPE CASTING --->
+						---------------------------------- 
+						----------------------------------
+Two types-->
+1) AUTOMATIC TC    		byte-->short-->char-->int-->long-->float-->double
+2) MANUAL TC			int x= (int)2.15
+
+NOTE--> boolean does not participate in Type Casting
+
+NOTE--> non-primative data types will be dissused later
