@@ -1,0 +1,43 @@
+                                                                 <--- SCANNER --->
+					   		  ------------------------------
+							  ------------------------------             
+
+
+It is used to scan the data from comand line or scanner is used to take user data for the execuation of the program.
+			import java.util.Scanner;
+			-------------------------
+			-------------------------
+			-------------------------
+			Scanner sc = new Scanner(System.in);
+			int x=sc.nextInt();
+			float f=sc.nextFloat();		
+			double d=sc.nextDouble();
+			sc.nextLine();					// to remove void space in memory
+			String s =sc.nextLine();
+			Char c =sc.nextChar();
+
+Here sc is a object which is used to scan the data and provide it to the demanding places. We may take any name instead of "sc".
+
+							       <--- H. RANK --->
+					   		  ------------------------------
+							  ------------------------------     
+
+1.	 scanner.close();  ==>  used to close the scanner 
+2.	 scanner.skip(some values);  ==> used to skip some values during scaning        
+
+
+				BufferedReader
+
+	import java.io.*;
+	-----
+	----
+	BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+	
+	String[] str = br.readLine().split(" ");
+	for(int i =0; i< str.length; i++){
+		arr[i] = Integer.parseInt(str[i])
+	}
+
+
+
+	
