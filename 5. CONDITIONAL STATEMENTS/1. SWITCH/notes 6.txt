@@ -1,0 +1,18 @@
+							<--- SWITCH --->
+						    ------------------------
+						    ------------------------	
+
+switch(value/expresion){
+	case value1 :
+		----------
+		----------
+		break;
+	case value2 :
+		----------
+		----------
+		break;
+	default :
+		// only when no value is matched. It not necessary to put in code.
+		----------
+		----------
+}	
