@@ -1,0 +1,46 @@
+						    <--- FOR LOOP --->
+						--------------------------
+						--------------------------
+
+Used to ittrate the value untill the condition is satisfied.
+
+		for(int initial; condition ; increment/decrement)
+			{
+				// code to be executed
+			}
+
+Infinite loops::-
+	* loops which don't get terminates.
+	* usually it is avoided but sometimes is useful for some application like opreating system
+
+
+conditions of infinite loop::-
+	* no increment/decrement 
+	* no termination condition
+	* opposite increment/decrement
+	* empty loop   					for(;;){}
+
+Nested loops ::-  used to ittrate a loops for multiple times. 
+		  used for tabular repersentation and matrix representation.
+
+						    <---EACH FOR LOOP --->
+						--------------------------
+						--------------------------
+
+	for(type var : arr){
+		//internal work
+	}
+
+	for(int i : num){
+		//ittrate for all the values of num
+	}
+
+						
+						    <--- BREAK and CONTINUE --->
+						------------------------------------
+						------------------------------------
+
+BREAK::-      Break is used to exit from the loop/switch in between the execution of it.
+CONTINUE::-   Continue is used to skip some ittration in loops.
+	
+
