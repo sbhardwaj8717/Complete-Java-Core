@@ -1,0 +1,44 @@
+						OOPs (Object-Oriented Programming System)
+					  -----------------------------------------------------
+					  -----------------------------------------------------
+
+	MAIN PILLERS OF OOPs
+	--------------------
+
+0. Object
+1. Class
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+5. Encapsulation 
+
+	* OBJECT --> 
+0. Object have some state and behavior
+1. An Object can be defined as an INSTANCE OF CLASS
+2. An Object contains an address and takes up some space in memory
+
+	eg::- a white board , a blue pen, a asus laptop
+
+	* CLASS -->
+0. A class is a blueprint of the object.
+1. It's a logical entity.
+2. Class does not consume space.
+3. A class can have multiple objects.
+
+	HOW TO CREATE A CLASS--->
+	-------------------------
+	
+		class ClassName{	
+		      // This is a EXAMPLE class
+		}
+
+ NOTE::- A file can have only one public class. If you wants to make your calss public then put it in a diffrent file.
+ NOTE::- We can't make a static reference to the non-static field. 
+
+	HOW TO CREATE A OBJECT--->
+	--------------------------
+	
+			ClassName objectName = new ClassName();
+
+	eg::-   Phone samsung = new Phone();
+		Phone iPhone7 = new phone();

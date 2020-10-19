@@ -1,0 +1,8 @@
+						    <--- ANAGRAM --->
+						-------------------------
+						-------------------------
+DEFINATION::-
+
+	Two strings are said to be ANAGRAM if both the strings have equal length of character and have the same characters in the
+	both strings.
+

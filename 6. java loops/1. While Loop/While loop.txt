@@ -1,0 +1,29 @@
+							WHILE LOOP
+						----------------------
+						----------------------
+
+FOR(intitialize ; condition ; incriment/dcrement ){
+
+}
+
+
+<<--WHILE--->>
+
+
+intitialize ;
+
+while(condition){			// entry conditional loop	
+
+increment/ decriment
+
+}
+
+
+max use--->>  boolean type values  == true/ false;
+
+for eg::--
+
+	boolean b = true;
+	while(b){
+		if(i%2 == 0) b =false;
+	}

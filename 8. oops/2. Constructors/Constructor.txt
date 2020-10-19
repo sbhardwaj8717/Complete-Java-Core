@@ -1,0 +1,71 @@
+							<---CONSTRUCTORS---> 
+						     --------------------------
+						     --------------------------
+
+A constructor is similar to a method (but not actually a method) that is invoked automatically when an object is implimented.
+
+this is used to initialize the value in the objects at the time of creatting them. This method is known is constructors.
+    It is similar to method. 
+    There is no return type.
+    Name is same as the class name.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+	SYNTAX ::-
+       ------------
+	0. NULL CONsTRUCTOR::-
+
+		class Test{
+			Text(){
+				Constructor's body;
+			}
+		}
+
+
+	1. PARAMETERIZIED CONSTRUCTOR::-
+
+		class Test{
+			Text(parameters value){
+				Constructor's body;
+			}
+		}
+
+
+NOTE ::- By default every class has a NULL constructor.
+
+NOTE ::- After defining any constructor, we can't use default constructor.
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+						<---THIS KEYWORD--->
+					    ---------------------------
+					    ---------------------------
+
+	This keyword is used to refer the local variable in a class.
+
+   eg::-
+---------	int a;
+		this.a = 5; 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+						<---CONSTRUCTOR OVERLOADING--->
+						-------------------------------
+						-------------------------------
+	
+Multiple Constructor can be available within a single class with same name but diffrent parameters same as method overloading
+
+eg::-
+
+
+	car(){
+	
+	}
+
+	car(int color){
+
+	}
+
+	car(int color, int wheels){
+
+	}

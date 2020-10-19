@@ -1,0 +1,61 @@
+							<--- STRINGS --->
+						    -------------------------
+						    -------------------------
+* To store words and sentences
+* It is a non-primitive data type
+* "this is a string"   WHERE As 'this' is a character
+
+Syntax:-
+-------		String varName="S.bhardwaj 8717"; 	
+		// [by litral  and stores in strings pool area, uses old valiue if present]
+				 ----	
+				| OR |
+				 ---- 
+		String varName=new String("S.bhardwaj 8717");		
+		// [by diffrent objects and stores in heap area, each time create a new strings in heap as well as in string pool area]
+
+note: These two methods are not same
+
+
+HEAP MEMORY::-
+------------- 	A genral memory space where all variables get  stored in the memory.
+
+STRING POOL AREA::-
+------------------    A perticular area in the memory for strungs designed by java oracle.
+			* It uses caching using method, it uses old strings if it is already exists in the memory.
+
+
+							<---HAS STRINGS --->
+						    -------------------------
+						    -------------------------
+
+		sc.hasNextLine(); ==> used to check whether there any next line for scanning or not. if no thin it returns the false value.
+					prevents the no line found exception during the execution of the code.
+		
+				example::-
+
+import java.util.Scanner;
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       int i=1;
+       boolean empty=true;
+       while(empty){
+           
+           if(sc.hasNextLine()){			
+            String x = sc.nextLine();
+            System.out.println(i+" " + x);
+            }
+            else{
+                empty=false;
+            }
+            
+           i++;
+       }
+       sc.close();
+    }
+}
+

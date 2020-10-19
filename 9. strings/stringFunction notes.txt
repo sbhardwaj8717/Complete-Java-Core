@@ -1,0 +1,38 @@
+					   <--- STRING FUNCTIONS --->
+					---------------------------------
+					---------------------------------
+
+* var.charAt(indexValue);   	==> value at index
+
+* var.length(); 		==> length of the string
+
+* SUBSTRINGS::-
+	a) var.substring(indexValue); 		==> print the string from the given index to the last of the string
+	b) var.substring(inVal1 , inVal2 ); 	==> print the string from inVal1 to inVal2-1th place (thus till n-1th place)
+
+* var.contains("any string"); 	==> used to search any string in some string(reply boolean value)
+
+* var.equals(var2);		==> used to check equality of 2 strings (reply boolean value)
+
+* var.isEmpty();		==> used to check whether it is empty or not(reply boolean value)
+
+* CONCATINATION::-
+	a) String var= "s.";
+	   var = var + "bhardwaj8717" ==> var = "s.bhardwaj8717"
+
+	b) var.concat("string to be concat with var"); 
+
+* var.replace("old char" , "new char");
+
+* String name="spapaji , ashu, sagar, bhardwaj , 8717";
+  String allNames[] = name.split(" , ");
+
+
+* var.indexOf("x");		==> used to the index value of any char in var string.
+
+* var.toLowerCase();
+
+* var.toUpperCase();
+
+* var.trim();  			==> used to remove the white spaces from the both sides of a string
+	   

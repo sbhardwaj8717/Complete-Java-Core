@@ -1,0 +1,24 @@
+DO-While--->
+-------------
+
+	* semicolon must hai.
+	* exit conditional loop.
+
+use--->  
+	* jb humme loop ko minimum 1 barr chlana ho.
+
+
+101 se 1 tk counting
+
+ini= -4;
+do{
+	sysout(i);
+	i--;
+}while(i >0);
+
+
+
+		do{
+			sysout(abcd)
+			INCRE/DICRE	
+		}while(condition);

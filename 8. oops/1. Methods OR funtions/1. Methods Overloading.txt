@@ -1,0 +1,26 @@
+						   <--METHOD OVERLOADING-->
+						------------------------------
+						------------------------------
+
+	The process of making two methods with same name with diffrent parameters is called as method overloading.
+
+	eg::--
+			static int name(int a, int b){}
+			static int name(int a, int b, int c){}
+			static int name(int a, float b){} 
+				etc...
+
+
+	Pass by value::- The methods parameters values are copied to another variable and then copied object is passed.
+	---------------
+
+
+	Pass by Refrence::- An alias or refrence to the actual value or parameter is passed to the method.
+	-------------------
+
+Q. Is java a pass by value language or pass by refrence?
+
+ANS::- Java is always a pass by value for primative data types. 
+	But for non-primative data types like classes and objects it is pass by refrence.
+
+	
