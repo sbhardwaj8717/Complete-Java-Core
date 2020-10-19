@@ -1,0 +1,31 @@
+						    FUNCTIONS / METHODS
+						---------------------------
+						---------------------------
+
+
+	* A method or a fuction is a peice of code which we can call in the code again and again without repeating the code.
+	* It makes the code DRY  --> Don't Repeat YourSelf
+
+
+SYNTAX::-
+---------
+	
+		modifiers static returnType methodName(dT var , dT var,....){
+			// type your code here;
+		}
+
+eg::-
+------			public static int add(int a, int b){
+				return a+b;
+			}
+
+Syntax explaination::--
+-----------------------
+
+	* modifier     ::- It defines the access type of the method and it is optional to use.
+	* returnType   ::- Method may return a value. // depending on the returnType of the method.
+	* methodName   ::- This is the method name. The method signature consists of the method name and the parameter lit.
+	* parameterLit ::- The list of parameters, it is the type, order, and number of paramerters of a method.
+			      These are optional, method may contain zero parameters.
+
+	* method body  ::- The method body defines what the method does with the statements.

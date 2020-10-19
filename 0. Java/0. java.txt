@@ -17,8 +17,8 @@ Edition 2:: Java ME (Java Micro Edition)
 Edition 3:: JavaFX
 
 						    Features of Java
-						----------------------	
-						----------------------	
+						------------------------	
+						------------------------	
 
 
 0.    Simple
