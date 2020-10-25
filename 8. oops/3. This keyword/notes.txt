@@ -1,0 +1,18 @@
+ 						     <----THIS keyword---->
+						  ---------------------------
+						  ---------------------------
+
+THIS keyword is used to refer current class  or elements of current class.
+
+Current word refers to the Class in which it is used.
+
+	class Test(){
+		int x;
+		this.x = 5;
+	}
+
+	class Rest(){
+		int y;
+	}	
+
+	Here "this" refers to the Test() class that means "this" will manupulate the data of Test() class.

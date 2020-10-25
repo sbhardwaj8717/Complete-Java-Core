@@ -5,9 +5,9 @@
 A constructor is similar to a method (but not actually a method) that is invoked automatically when an object is implimented.
 
 this is used to initialize the value in the objects at the time of creatting them. This method is known is constructors.
-    It is similar to method. 
-    There is no return type.
-    Name is same as the class name.
+   * It is similar to method. 
+   * There is no return type. Because A constructor is basicaly used to initialize the internal memory elements in it.
+   * Name is same as the class name.
 
 -----------------------------------------------------------------------------------------------------------------------------
 
