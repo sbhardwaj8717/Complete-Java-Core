@@ -15,7 +15,7 @@ inheritance in constructor ::- at the time executaion all the constructors will 
 
 Dynamic method dispatch 
 
-Abstraction ::- only declaration without implimentation. Must declared with the abstract kewword.
+Abstraction ::- only declaration without implementation. Must declared with the abstract keyword.
 Abstraction method ::- a method in a class that is only declared only. Needs to override the methods 
 Abstraction class ::- a class that have even one single abstract method must be declared as abstract class.
                       abstract class can contain both abstract and non-abstract methods. 
@@ -24,4 +24,26 @@ child extends abstract_class ::--
                 type-1) ::- Normal class ::- Must needs to override all the abstract methods of abstract class
                 type-2) ::- Another abstract class ::- NO need to override all the methods.
 
-                    
+interface ::- In java, Group of related methods with empty bodies. 
+              In english a point where two system meet and intract.
+              "implement" keyword is used to implement the interface over other classes.
+              more than one interfaces can be implemented at once, where as only 1 class can be extended.
+              NOTE ::- all the implemented methods must be public in child class.
+                       both inheritance and interfaces can be used simultaniously.
+                       can't change the values of interfaces as they are of final type by default.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

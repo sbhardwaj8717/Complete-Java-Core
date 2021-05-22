@@ -2,7 +2,7 @@ abstract class Parent{
     public void sayHello(){
         System.out.println("Hellooo coder...");
     }
-    abstract public void greet();
+    abstract public void greet(String wish);
     abstract public void keyNote();
 }
 
@@ -20,8 +20,8 @@ class Child extends Parent{
    }
 
    @Override
-   public void greet() {
-       System.out.println("Good morning coder...have a cup of coffee");
+   public void greet(String wish) {
+       System.out.println(wish +" coder...have a cup of coffee");
    }
 
     @Override
@@ -34,7 +34,7 @@ class Child extends Parent{
 public class AbstractionClass {
     public static void main(String[] args) {        
         Child c1 = new Child();
-        c1.greet();
+        c1.greet("Good Morning");
         c1.sayHello();
     }
 }
