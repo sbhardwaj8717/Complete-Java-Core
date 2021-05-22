@@ -1,0 +1,27 @@
+class ::-       blue print of the object. Don't take memory.
+object ::-      anything that can be 
+
+method ::-      functionality of a class
+constructor ::- self called function when an object is created from the class.
+
+method overloading ::- 2 or more methods into a single class having same name but diffrent parameters
+method overriding  ::- 2 or more mehods with same name and parameters but in diffrent calsses.
+
+this keyword ::- refers to the current class
+super keyword ::- refers to the constructor of parent class
+
+inheritance ::- used to create IS-THE relationship between the 2 classes. Child extends Parent. Child can access all the methods of parent class but parent class can't do this with child class.
+inheritance in constructor ::- at the time executaion all the constructors will be executed in the stack format. Top to down approch.
+
+Dynamic method dispatch 
+
+Abstraction ::- only declaration without implimentation. Must declared with the abstract kewword.
+Abstraction method ::- a method in a class that is only declared only. Needs to override the methods 
+Abstraction class ::- a class that have even one single abstract method must be declared as abstract class.
+                      abstract class can contain both abstract and non-abstract methods. 
+
+child extends abstract_class ::-- 
+                type-1) ::- Normal class ::- Must needs to override all the abstract methods of abstract class
+                type-2) ::- Another abstract class ::- NO need to override all the methods.
+
+                    

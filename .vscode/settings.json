@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "class loder",
-        "7. arrays"
+        "7. arrays",
+        "8. oops/6. Abstraction"
     ]
 }
